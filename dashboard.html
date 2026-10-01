@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Mon espace - Cabinet Santé</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+
+    <!-- HEADER -->
+
+    <header class="header">
+
+        <div class="container nav">
+
+            <a href="index.html" class="logo">
+                <span>+</span> Cabinet Santé
+            </a>
+
+
+            <nav class="menu">
+
+                <a href="index.html">
+                    Accueil
+                </a>
+
+                <a href="rendez-vous.html">
+                    Nouveau rendez-vous
+                </a>
+
+            </nav>
+
+
+            <div class="auth-buttons">
+
+                <button
+                    id="logoutButton"
+                    class="btn-primary"
+                >
+                    Déconnexion
+                </button>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+
+    <!-- DASHBOARD -->
+
+    <main class="dashboard-page">
+
+        <div class="container">
+
+
+            <div class="dashboard-header">
+
+                <div>
+
+                    <span>
+                        Espace patient
+                    </span>
+
+                    <h1 id="welcomeUser">
+                        Bonjour !
+                    </h1>
+
+                    <p>
+                        Gérez vos informations et vos rendez-vous.
+                    </p>
+
+                </div>
+
+
+                <a
+                    href="rendez-vous.html"
+                    class="btn-primary"
+                >
+                    + Nouveau rendez-vous
+                </a>
+
+            </div>
+
+
+
+            <!-- STATISTIQUES -->
+
+            <div class="dashboard-stats">
+
+
+                <div class="stat-card">
+
+                    <div class="stat-icon">
+                        📅
+                    </div>
+
+                    <div>
+
+                        <span>
+                            Rendez-vous
+                        </span>
+
+                        <strong id="appointmentCount">
+                            0
+                        </strong>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="stat-card">
+
+                    <div class="stat-icon">
+                        👤
+                    </div>
+
+                    <div>
+
+                        <span>
+                            Compte
+                        </span>
+
+                        <strong>
+                            Actif
+                        </strong>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="stat-card">
+
+                    <div class="stat-icon">
+                        🏥
+                    </div>
+
+                    <div>
+
+                        <span>
+                            Cabinet
+                        </span>
+
+                        <strong>
+                            Santé
+                        </strong>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- RENDEZ-VOUS -->
+
+            <section class="dashboard-section">
+
+
+                <div class="section-heading">
+
+                    <div>
+
+                        <span>
+                            Planning
+                        </span>
+
+                        <h2>
+                            Mes rendez-vous
+                        </h2>
+
+                    </div>
+
+                </div>
+
+
+                <div id="appointmentsList">
+
+                    <!-- JavaScript va afficher les rendez-vous ici -->
+
+                </div>
+
+
+            </section>
+
+
+
+            <!-- PROFIL -->
+
+            <section class="profile-section">
+
+
+                <div class="section-heading">
+
+                    <div>
+
+                        <span>
+                            Mes informations
+                        </span>
+
+                        <h2>
+                            Mon profil
+                        </h2>
+
+                    </div>
+
+                </div>
+
+
+
+                <div
+                    class="profile-card"
+                    id="profileInformation"
+                >
+
+                </div>
+
+
+            </section>
+
+
+        </div>
+
+    </main>
+
+
+
+    <footer class="simple-footer">
+
+        © 2026 Cabinet Santé - Tous droits réservés.
+
+    </footer>
+
+
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
